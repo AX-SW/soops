@@ -1,0 +1,192 @@
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+  overflow-y: scroll;
+  background-image: url(https://ifh.cc/g/4b8qC3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+a,
+li,
+.box1 {
+  font-family: "Courgette", cursive;
+  color: black;
+  text-decoration: none;
+  font-style: initial;
+}
+.header {
+  border-bottom: solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background: transparent;
+}
+.header img {
+  padding: 0px 20px;
+}
+
+.hname {
+  font-size: 60px;
+}
+
+.hicon {
+  font-size: 30px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.search {
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  padding-left: 4px;
+}
+.navbarmenu {
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 380px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.navbar li {
+  padding: 4px 50px;
+}
+
+.navbarmenu li:hover {
+  background-color: #efdcd5;
+}
+.login {
+  font-size: 16px;
+
+  margin-left: 0;
+}
+
+.box1 {
+  background-image: url(https://ifh.cc/g/c6f7FM.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  color: #ffebee;
+  text-shadow: ;
+}
+.text1 {
+  font-size: 70px;
+}
+.text2 {
+  font-size: 40px;
+}
+.main {
+  align-content: space-between;
+}
+.artist {
+  margin-top: 30px;
+}
+.card1,
+.card2 {
+  display: flex;
+  border-radius: 50px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-color: #fff9c4;
+  box-shadow: 5px 3px 18px #888888;
+  margin-bottom: 30px;
+}
+.card1 img,
+.card2 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #888888;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+.card1 h1,
+.card2 h1 {
+  display: inline-flexbox;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.card1 p,
+.card2 p {
+  font-size: 25px;
+}
+
+.c1 {
+  font-size: 40px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 15px 15px;
+  border-radius: 30px;
+  box-shadow: 5px 10px 18px #888888;
+  transition: 0.3s;
+  background-color: #faffd0;
+}
+
+.c1:hover {
+  font-size: 45px;
+  box-shadow: 10px 20px 18px #888888;
+  display: inline-block;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: space-around;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.art img {
+  margin-top: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  transition: 0.3s;
+}
+.art h1 {
+  display: inline;
+  margin-top: 15px;
+}
+.art p {
+  padding: 0px 8px;
+}
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6 {
+  width: 30%;
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: #faffd0;
+}
+.art img:hover {
+  width: 270px;
+  height: 270px;
+  border-radius: 40%;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.a4,
+.a5,
+.a6 {
+  margin-top: 50px;
+}
